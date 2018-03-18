@@ -16,9 +16,6 @@
 
     <model name='ground_plane'>
       <static>1</static>
-    <include>
-      <uri>model://asphalt_plane_large</uri>
-    </include>
       <link name='link'>
         <collision name='collision'>
           <geometry>
