@@ -14,10 +14,6 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <include>
-        <uri>model://sd5</uri>
-    </include>
-
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>
@@ -65,6 +61,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
+
     <physics name='default_physics' default='0' type='ode'>
       <ode>
         <solver>
